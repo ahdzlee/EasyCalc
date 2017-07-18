@@ -9,4 +9,5 @@
     <string name="text_times">x</string>
     <string name="text_divide">/</string>
     <string name="text_exit">Exit</string>
+    <string name="text_enter_valid_number">Please enter a valid number.</string>
 </resources>

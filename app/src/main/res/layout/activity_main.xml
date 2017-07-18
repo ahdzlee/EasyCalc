@@ -14,14 +14,16 @@
         android:id="@+id/etFirstNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/text_first_number" />
+        android:hint="@string/text_first_number"
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/etSecondNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/etFirstNumber"
-        android:hint="@string/text_second_number" />
+        android:hint="@string/text_second_number"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/tvResult"
@@ -50,26 +52,32 @@
 
         <Button
             style="@style/CalcButtonStyle"
+            android:onClick="onOperationClicked"
             android:text="@string/text_plus" />
 
         <Button
             style="@style/CalcButtonStyle"
+            android:onClick="onOperationClicked"
             android:text="@string/text_minus" />
 
         <Button
             style="@style/CalcButtonStyle"
+            android:onClick="onOperationClicked"
             android:text="@string/text_clear" />
 
         <Button
             style="@style/CalcButtonStyle"
+            android:onClick="onOperationClicked"
             android:text="@string/text_times" />
 
         <Button
             style="@style/CalcButtonStyle"
+            android:onClick="onOperationClicked"
             android:text="@string/text_divide" />
 
         <Button
             style="@style/CalcButtonStyle"
+            android:onClick="onOperationClicked"
             android:text="@string/text_exit" />
     </GridLayout>
 
