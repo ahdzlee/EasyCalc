@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Easy Calc</string>
+    <string name="text_first_number">Enter 1st number</string>
+    <string name="text_second_number">Enter 2nd number</string>
+    <string name="text_zero">0</string>
+    <string name="text_plus">+</string>
+    <string name="text_minus">-</string>
+    <string name="text_clear">C</string>
+    <string name="text_times">x</string>
+    <string name="text_divide">/</string>
+    <string name="text_exit">Exit</string>
 </resources>
